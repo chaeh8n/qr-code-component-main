@@ -1,0 +1,44 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+  font-size: 15px;
+}
+
+html {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.outer-box {
+  width: min-content;
+  height: min-content;
+
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  
+  margin: 0 auto;
+}
+
+.first-line {
+  font-weight: 700;
+}
+
+.second-line {
+  font-weight: 400;
+  font-size: 11px;
+  color: hsl(220, 15%, 55%)
+}
+
+.first-line, .second-line {
+  width: 180px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+}
