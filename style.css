@@ -7,7 +7,8 @@ p {
 }
 
 html {
-  background-color: hsl(212, 45%, 89%);
+  /* background-color: hsl(212, 45%, 89%); */
+  background-color: orange;
   font-family: "Outfit", sans-serif;
 }
 
