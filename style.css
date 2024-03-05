@@ -36,13 +36,13 @@ main {
 h2 {
   font-size: 22px;
   color: hsl(218, 44%, 22%);
-  width: 272px;
+  width: 18ch;
 }
 
 p {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
-  width: 250px;
+  width: 25ch;
   margin-bottom: 25px;
 }
 
@@ -56,4 +56,10 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 12px;
+}
+
+@media (max-width: 375px) {
+  html {
+    background-color: orange;
+  }
 }
