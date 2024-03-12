@@ -52,19 +52,3 @@ body {
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
-
-@media (max-width: 375px) {
-  body {
-    width: 375px;
-  }
-
-  .attribution {
-    font-size: 0.7rem;
-  }
-}
-
-@media ((min-width: 375px) and (max-width: 450px)){
-  .attribution {
-    font-size: 0.8rem;
-  }
-}
